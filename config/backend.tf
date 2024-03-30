@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "rushi-s3-bucket-1"
+    bucket = "my-s3-bucket"
     key    = "tf_state"
     region = "us-east-1"
   }
